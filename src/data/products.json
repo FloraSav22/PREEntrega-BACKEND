@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Ceibo",
+        "price": "8000",
+        "description": "Árbol de gran tamaño, conocido por sus enormes raíces y su madera resistente."
+    },
+    {
+        "id": 2,
+        "name": "Lapacho",
+        "price": "11500",
+        "description": "Árbol de floración colorida, especialmente valorado por su madera dura."
+    },
+    {
+        "id": 3,
+        "name": "Jacarandá",
+        "price": "12000",
+        "description": "Árbol con vistosas flores violetas, común en zonas urbanas."
+    },
+    {
+        "id": 4,
+        "name": "Ombú",
+        "price": "10000",
+        "description": "Árbol simbólico de las pampas, conocido por su gran sombra y tronco macizo."
+    },
+    {
+        "id": 5,
+        "name": "Guayacán",
+        "price": "6500",
+        "description": "Madera extremadamente dura y pesada, muy apreciada para construcciones."
+    },
+    {
+        "id": 6,
+        "name": "Palmera Reina",
+        "price": "35000",
+        "description": "Palmera tropical que produce cocos y es ampliamente cultivada en zonas costeras."
+    },
+    {
+        "id": 7,
+        "name": "Palo Santo",
+        "price": "2500",
+        "description": "Árbol aromático utilizado por su madera fragante en rituales y fabricación de incienso."
+    },
+    {
+        "id": 8,
+        "name": "Timbó",
+        "price": "7500",
+        "description": "Árbol frondoso con frutos en forma de vainas, usado para sombra y madera."
+    },
+    {
+        "id": 9,
+        "name": "Sauce Criollo",
+        "price": "6000",
+        "description": "Árbol de crecimiento rápido, muy útil para paisajismo y recuperación de suelos."
+    },
+    {
+        "id": 10,
+        "name": "Quebracho",
+        "price": "2200",
+        "description": "Árbol con madera extremadamente dura, utilizado en la producción de taninos."
+    }
+]
+
