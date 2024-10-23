@@ -1,0 +1,25 @@
+<div>
+    {{#each docs}}
+    <div>
+        <p>Nombre: {{this.name}} &nbsp; Precio: {{this.price}}</p>
+    </div>
+    {{/each}}
+</div>
+<br>
+<div>
+    {{#if hasPrevPage}}
+    <a href=""><< Anterior</a>
+    {{/if}}
+    &nbsp;
+
+    {{this.page}}
+    &nbsp;
+
+
+    {{#if hasNextPage}}
+    <a href=""> Siguiente >></a>
+    {{/if}}
+</div>
+{{else}}
+<h1>No hay contenido para Mostrar.</h1>
+{{/if}}

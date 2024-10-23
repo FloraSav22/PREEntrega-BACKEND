@@ -9,11 +9,10 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 
-app.engine('handlebars', handlebars({
-    defaultLayout: 'main'
-}));
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
-app.set('views', './src/views');
+app.set('views', path.join(__dirname, 'views'));
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -57,3 +56,12 @@ const port = 8080;
 server.listen(port, () => {
     console.log(`Escuchando al puerto http://localhost:${port}`);
 });
+
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/plantasDB', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('Conectado con MongoDB'))
+.catch((error) => console.error('Error al conectarte con MongoDB:', error));
